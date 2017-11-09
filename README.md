@@ -10,6 +10,8 @@
   liunx下安装django
     http://www.cnblogs.com/freeweb/p/5210167.html
 	
+	3.sqlite3工具 SQLite Expret Personal
+	
 二、创建项目	
 	
 	1.创建步骤
@@ -46,6 +48,7 @@
 			内容默认为空
 			
 三、创建应用
+
 		1.创建步骤
 			打开命令行，进入项目中manage.py所在的目录
 			
