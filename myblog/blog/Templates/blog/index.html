@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<h1>我的第一个标题</h1>-->
+<!--<hi> hello ,Blog!</hi>>-->
+<!--<hi> {{ article.title }}</hi>-->
+<!--<h3>{{article.content}}</h3>-->
+<!--<p>我的第一个段落。</p>-->
+<h1>
+    <a href="{% url 'blog:edit_page' 0 %}">新文章</a>
+</h1>
+{% for article in articles %}
+    <a href="{% url 'blog:article_page' article.id %}">{{article.title}}</a>
+    <br/>
+{% endfor %}
+
+</body>
+</html>
