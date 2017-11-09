@@ -48,8 +48,11 @@
 三、创建应用
 		1.创建步骤
 			打开命令行，进入项目中manage.py所在的目录
+			
 			命令行输入：django manange.py startapp blog
+			
 			添加应用名到settings.py 中的INSTALLED_APPS里
+			
 			注意:不能和python模块名相同
 			
 		2.新建应用中各文件意义
